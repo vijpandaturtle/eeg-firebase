@@ -15,3 +15,9 @@ Once you have configured firebase (auth credentials) and setup the EEG board, yo
 ```
 python eeg_firebase.py --board-id 1 --serial-port "Your COM port here"
 ```
+
+## Dependencies 
+1. brainflow
+2. numpy 
+3. firebase_admin
+4. argparse
