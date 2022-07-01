@@ -10,3 +10,8 @@ In this EEG setup, the electrodes are placed in a way similar to the Muse EEG he
 1. https://firebase.google.com/docs/reference/admin/python/
 2. https://www.freecodecamp.org/news/how-to-get-started-with-firebase-using-python/
 3. https://ahnaafk.medium.com/creating-a-neurofeedback-program-with-python-c6153022a4e7
+
+Once you have configured firebase (auth credentials) and setup the EEG board, you can stream data by running this command.
+```
+python eeg_firebase.py --board-id 1 --serial-port "Your COM port here"
+```
